@@ -1,0 +1,21 @@
+cloud:
+  aws:
+    credentials:
+      access-key:
+      secret-key:
+    region:
+      static: eu-north-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: cloudaware-test2
+
+spring:
+  data:
+    mongodb:
+      database: cloudaware-test
+
+server:
+  port: 8050
